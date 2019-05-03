@@ -1,0 +1,11 @@
+<h2>Login</h2>
+<hr>
+<div>
+  <label for="username">Enter Username:</label>
+  <input type="text" id="username" [(ngModel)]="username">
+
+  <label for="password">Enter Password</label>
+  <input type="password" id="password" [(ngModel)]="password">
+
+  <input type="submit" [disabled]="!formValidation()" (click)="submit()">
+</div>
