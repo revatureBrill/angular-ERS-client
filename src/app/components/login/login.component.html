@@ -1,6 +1,9 @@
 <h2>Login</h2>
 <hr>
 <div>
+  <p *ngIf="lastStatus === 400">Username or password is incorrect.</p>
+  <p *ngIf="lastStatus === 500">Unknown server error occurred.</p>
+  <p *ngIf="lastStatus === 0">Server unreachable.</p>
   <label for="username">Enter Username:</label>
   <input type="text" id="username" [(ngModel)]="username">
 
