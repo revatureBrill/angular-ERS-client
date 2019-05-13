@@ -1,0 +1,33 @@
+<br>
+<h2>REIMBURSEMENT REQUESTS</h2>
+
+<table id="table1">
+  <tr>
+    <th>REIMB_ID</th>
+    <th>AMOUNT</th> 
+    <th>SUBMITTED</th>
+    <th>AUTHOR</th>
+    <th>RECEIPT</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>$250</td>
+    <td>2019-05-10</td>
+    <td>1</td>
+    <td>Unavailable</td>
+  </tr>
+</table>
+
+<br>
+
+<div id="container">
+  <nav>
+    <div style= "background-color:green" routerLink="approved">Approve</div>
+    <div style= "background-color:red" routerLink="declined">Decline</div>
+  </nav>
+  <div>
+    <!-- router-outlet acts as a placeholder to render
+      the active component -->
+    <router-outlet></router-outlet>
+  </div>
+</div>

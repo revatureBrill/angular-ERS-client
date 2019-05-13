@@ -1,0 +1,21 @@
+<div>
+  <br>
+
+  <label for="reimb_submitted">Date of Submission</label>
+  <input type="date" id="reimb_submitted" [(ngModel)]="reimb_submitted">
+
+  <label for="reimb_description">Type</label>
+  <input type="text" id="reimb_description" [(ngModel)]="reimb_description">
+
+  <label for="reimb_amount">Amount</label>
+  <input type="number" id="reimb_amount" [(ngModel)]="reimb_amount">
+
+  <nav>
+    <div routerLink="submitted">Submit Reimbursement Request</div>
+  </nav>
+  <div>
+      <!-- router-outlet acts as a placeholder to render
+        the active component -->
+      <router-outlet></router-outlet>
+    </div>
+</div>

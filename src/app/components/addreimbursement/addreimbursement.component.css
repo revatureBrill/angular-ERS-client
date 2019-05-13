@@ -4,12 +4,6 @@ h2 {
     color: white;
 }
 
-p {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    padding-left: 100px;
-}
-
 div {
     padding: 5px;
 }
@@ -17,6 +11,29 @@ div {
 div > label, div > input {
     font-size: 1.5rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav > div {
+    width: 500px;
+    border-radius: 75px;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: #EEE;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    color: black;
+}
+
+nav > div:hover {
+    background: #DDD;
 }
 
 label, input {
@@ -27,6 +44,6 @@ label, input {
 }
 
 input {
-    border-radius: 25px;
+    border-radius: 50px;
     margin-bottom: 10px;
 }

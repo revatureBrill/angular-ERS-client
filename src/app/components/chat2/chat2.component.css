@@ -1,9 +1,6 @@
-h1 {
-    margin: 0;
-    padding: 15px;
+h2 {
     text-align: center;
-    font-size: 2.523rem;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
 
@@ -13,18 +10,16 @@ nav {
     justify-content: space-around;
 }
 
-#container {
-    border-radius: 75px;
-    width: 1230px;
-    height: 523px;
+/* #container {
+    width: 800px;
     margin: 0 auto;
     box-shadow: 2px 2px 3px 3px black;
-}
+} */
 
 nav > div {
-    border-radius: 75px;
-    width: 350px;
-    font-size: 2rem;
+    border-radius: 50px;
+    width: 300px;
+    font-size: 1.5rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: #EEE;
     cursor: pointer;
